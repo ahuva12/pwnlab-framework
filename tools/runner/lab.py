@@ -1,7 +1,6 @@
 from utils import LabUtils
 from runner import Runner
 
-
 class Lab:
     def __init__(self):
         self.challenges = {

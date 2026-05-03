@@ -1,6 +1,5 @@
 from lab import Lab
 
-
 if __name__ == "__main__":
     lab = Lab()
 

@@ -1,6 +1,5 @@
 import subprocess
 
-
 class Runner:
     def __init__(self, binary_path):
         self.binary_path = binary_path

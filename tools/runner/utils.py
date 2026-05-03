@@ -1,4 +1,5 @@
 import os
+import json
 
 class LabUtils:
     @staticmethod
@@ -13,4 +14,4 @@ class LabUtils:
     def log_result(binary, result):
         with open("run_logs.txt", "a") as f:
             f.write(f"\n--- {binary} ---\n")
-            f.write(str(result))
+            f.write(json.dumps(result, indent=2))
