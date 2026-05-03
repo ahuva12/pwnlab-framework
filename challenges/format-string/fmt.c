@@ -10,6 +10,8 @@ void safe() {
 }
 
 int main() {
+	setvbuf(stdout, NULL, _IONBF, 0);
+
     char input[100];
 	void (*func_ptr)() = safe;	
     void *addr_func_ptr = &func_ptr;
@@ -24,5 +26,6 @@ int main() {
 
     return 0;
 }
+
 
 

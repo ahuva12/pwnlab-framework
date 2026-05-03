@@ -7,7 +7,6 @@ void win() {
 }
 
 void vuln() {
-
     char buffer[32];
 
     printf("What is your name?\n");
@@ -27,3 +26,4 @@ int main() {
 	
     return 0;
 }
+
