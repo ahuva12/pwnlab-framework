@@ -4,7 +4,6 @@ import resource
 class Runner:
     def __init__(self, binary_path):
         self.binary_path = binary_path
-        print(binary_path)
         
     @staticmethod
     def set_limits(cpu=1, mem_mb=64):
