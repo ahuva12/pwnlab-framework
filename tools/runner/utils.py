@@ -13,5 +13,5 @@ class LabUtils:
             "result": result
         }
 
-        with open("run_logs.txt", "a") as f:
+        with open("tools/runner/run_logs.txt", "a") as f:
             f.write(json.dumps(log_entry) + "\n")
