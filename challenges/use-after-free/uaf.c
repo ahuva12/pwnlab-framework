@@ -14,11 +14,13 @@ void win(char* name) {
 		char flag[] = "pwnlab{use_after_free}\n";
 		printf("Hello %s! You win!\nFLAG: %s\n", name, flag);
 	} else {
+		printf("win\n");
 		hello(name);
 	}
 }
 
 void hello(char* name) {
+	printf("hello\n");
     printf("Hello %s", name);
 }
 
