@@ -20,7 +20,6 @@ void win(char* name) {
 }
 
 void hello(char* name) {
-	printf("hello\n");
     printf("Hello %s", name);
 }
 
